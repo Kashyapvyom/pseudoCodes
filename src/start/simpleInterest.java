@@ -1,0 +1,22 @@
+package start;
+
+import java.util.Scanner;
+
+public class simpleInterest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int p = sc.nextInt();
+        int r = sc.nextInt();
+        int t = sc.nextInt();
+        int si = (p*r*t)/100;
+        System.out.println(si);
+    }
+}
+
+/*
+FUNCTION si(INTEGER p,INTEGER r,INTEGER t)
+    INETGER si
+    si = (p*r*t)/100
+    RETURN si
+END FUNCTION
+ */
