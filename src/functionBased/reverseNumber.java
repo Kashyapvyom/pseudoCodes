@@ -16,3 +16,19 @@ public class reverseNumber {
 
         }
     }
+
+    /*
+    FUNCTION rev(n:INTEGER):INTEGER
+        DECLARE a:INTEGER
+        DECLARE b:INTEGER
+        SET b:=0
+        WHILE n>0
+            a:=n mod 10
+            n:=n/10
+            b:=b*10+a
+    END WHILE
+    RETURN b
+    END rev
+    PRINT rev(123)
+
+     */
