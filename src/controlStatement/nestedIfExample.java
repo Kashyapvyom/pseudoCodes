@@ -7,13 +7,13 @@ public class nestedIfExample {
         Scanner sc = new Scanner(System.in);
         String pass = sc.next();
         String uid = sc.next();
-        if(uid=="admin")
-            if(pass=="admin")
+        if(uid.equals("admin")){
+            if(pass.equals("admin")) {
                 System.out.println("WELCOME");
-        else
+            }else {
                 System.out.println("WRONG password");
-        System.out.println("WRONG user ID");
-    }
+            System.out.println("WRONG user ID");
+    }}}
 }
 
 
